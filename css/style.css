@@ -1,0 +1,333 @@
+html, body
+{
+	height: 100%;
+}
+
+.cover
+{
+	width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.nav a
+{
+	text-decoration: none;
+}
+
+.main
+{
+	background-image: url("../img/background.jpg") !important;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+	/*position: absolute;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	overflow: auto;
+
+  	width: 100%;
+  	height: 100%;
+  	float: left;*/
+}
+
+.second
+{
+	font: 'Roboto';
+	background: rgba(0,0,0,.5) url("../img/pattern.png");
+	background-color: #192B2D;
+	overflow: auto;
+}
+
+.second table
+{
+	border-collapse: collapse;
+	border: 2px solid white;
+}
+
+.second th, td
+{
+	padding: 1em;
+	border: 2px solid white;
+}
+
+.pattern
+{
+	background: rgba(0,0,0,.5) url("../img/pattern.png");
+	background-repeat: repeat;
+	padding-top: 0;
+	height: 100%
+}
+
+#logo
+{
+	margin-top: 10%;
+}
+
+#welcome_text
+{
+	margin-top: 5%;
+}
+
+#timer
+{
+	margin-top: 3%;
+	margin-left: 7%;
+}
+
+#status
+{
+	margin-top: 3%;
+}
+
+#steps
+{
+	position: fixed;
+	top: 3%;
+	left: 3%;
+}
+
+#steps table
+{
+	border-collapse: collapse;
+	border: none;
+}
+
+#steps th, tr, td
+{
+	font-size: 17px !important;
+	text-align: center;
+}
+
+.finished
+{
+	color: #27ae60;
+}
+
+.inprogress
+{
+	color: #f39c12;
+}
+
+.todo
+{
+	color: white;
+}
+
+/**************/
+#days
+{
+	margin: 0 5% 0 0;
+	display: inline-table;
+}
+
+#days_text
+{
+	display: inline-block;
+    vertical-align: top;
+    display: table-row;
+}
+
+#days_value
+{
+	display: inline-block;
+    vertical-align: bottom;
+    display: table-row;
+    font-size: 250%;
+	font-family: 'Digit-Font' !important;
+}
+/**************/
+#hours
+{
+	margin: 0 5% 0 0;
+	display : inline-table;
+}
+
+#hours_text
+{
+	display: inline-block;
+    vertical-align: top;
+    display: table-row;
+}
+
+#hours_value
+{
+	display: inline-block;
+    vertical-align: bottom;
+    display: table-row;
+    font-size: 250%;
+	font-family: 'Digit-Font' !important;
+}
+
+/**************/
+#minutes
+{
+	margin: 0 5% 0 0;
+	display: inline-table;
+}
+
+#minutes_text
+{
+	display: inline-block;
+    vertical-align: top;
+    display: table-row;
+}
+
+#minutes_value
+{
+	display: inline-block;
+    vertical-align: bottom;
+    display: table-row;
+    font-size: 250%;
+	font-family: 'Digit-Font' !important;
+}
+/**************/
+#seconds
+{
+	margin: 0 5% 0 0;
+	display: inline-table;
+}
+
+#seconds_text
+{
+	display: inline-block;
+    vertical-align: top;
+    display: table-row;
+}
+
+#seconds_value
+{
+	display: inline-block;
+    vertical-align: bottom;
+    display: table-row;
+    font-size: 250%;
+	font-family: 'Digit-Font' !important;
+}
+
+/**************/
+
+#current_objective_text
+{
+	margin-top: 5%;
+}
+
+#current_objective
+{
+	margin-top: 2%;
+	padding: 0.3%;
+	margin-left: 0;
+	margin-right: 0;
+	/*border: 1px solid white;*/
+}
+
+ul.social_network
+{
+	padding-right: 2.5em;
+	list-style: none;
+	bottom: 1em;
+	right: 1em;
+	position: absolute;
+}
+
+.social_network a
+{
+	text-decoration: none;
+	font-size: 1.5em !important;
+}
+
+ul.social_network li
+{
+	display: inline-block;
+	padding-left: 1em;
+}
+
+* {
+	color: white;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "Nasa-Font";
+	src: url('../fonts/Nasa.ttf');
+}
+
+@font-face {
+	font-family: "Digit-Font";
+	src: url('../fonts/Digit.ttf')
+}
+
+@media screen and (max-width: 768px)
+{
+	.second table, th, tr, td
+	{
+		font-size: 0.75em !important;
+		padding: 0.5em !important;
+	}
+
+	#logo
+	{
+		width: 30% !important;
+	}
+
+	.social_network a
+	{
+		font-size: 1.25em !important;
+	}
+
+	#timer
+	{
+		padding-top: 13%;
+	}
+
+	/**************/
+	#days_text
+	{
+		font-size: 0.55em !important;
+	}
+
+	#days_value
+	{
+		font-size: 0.55em !important;
+	}
+
+	/**************/
+	#hours_text
+	{
+		font-size: 0.55em !important;
+	}
+
+	#hours_value
+	{
+		font-size: 0.55em !important;
+	}
+
+	/**************/
+	#minutes_text
+	{
+		font-size: 0.55em !important;
+	}
+
+	#minutes_value
+	{
+		font-size: 0.55em !important;
+	}
+	/**************/
+
+	#seconds_text
+	{
+		font-size: 0.55em !important;
+	}
+
+	#seconds_value
+	{
+		font-size: 0.55em !important;
+	}
+}
